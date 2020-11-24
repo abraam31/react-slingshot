@@ -51,6 +51,6 @@ workflows:
       - test:
           requires:
               - build
-      - audit:
+      - analyze:
           requires:
               - test
